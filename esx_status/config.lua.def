@@ -1,0 +1,5 @@
+Config = {}
+
+Config.StatusMax      = {{esxstatusmax}}
+Config.TickTime       = {{esxstatusticktime}}
+Config.UpdateInterval = {{esxstatusupdateinterval}}

@@ -1,0 +1,16 @@
+Config = {}
+Config.Locale = '{{esxlocale}}'
+Config.reportCooldown = {{esxapreportcooldown}} --seconds
+Config.warnMax = {{esxapwarnmax}}  --how many warn player can get before getting kicked?
+Config.adminRanks = { -- change this as your server ranking ( default are : superadmin | admin | moderator )
+				'{{esxaproledev}}',
+				'{{esxaproleowner}}',
+				'{{esxaproleadmin}}',
+				'{{esxaprolemoderator}}',
+				--'sradmin',
+				--'headadmin',
+				--'moderator',
+				--'manager',
+				--'owner',
+				--'developer',
+            }

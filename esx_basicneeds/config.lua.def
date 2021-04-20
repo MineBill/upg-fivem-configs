@@ -1,0 +1,3 @@
+Config = {}
+Config.Locale = '{{esxlocale}}'
+Config.Visible = {{esxbnvisible}}

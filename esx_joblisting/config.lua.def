@@ -1,0 +1,12 @@
+Config              = {}
+
+Config.DrawDistance = {{esxjldrawdistance}}
+Config.ZoneSize     = {{esxjlzonesize}}
+Config.MarkerColor  = {{esxjlmarkercolor}}
+Config.MarkerType   = {{esxjlmarkertype}}
+
+Config.Locale       = '{{esxlocale}}'
+
+Config.Zones = {
+	vector3({{esxjlzone1}})
+}
