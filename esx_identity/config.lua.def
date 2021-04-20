@@ -19,11 +19,11 @@ Config.UseDeferrals     = false -- EXPERIMENTAL Character Registration Method.
 
 
 -- These values are for the second input validation in server/main.lua
-Config.MaxNameLength    = {{esxidentitymaxnamelength}}20
-Config.MinHeight        = {{esxidentityminheight}}45
-Config.MaxHeight        = {{esxidentitymaxheight}}96
-Config.LowestYear       = {{esxidentitylowestyear}}1900
-Config.HighestYear      = {{esxidentityhighestyear}}2021
+Config.MaxNameLength    = {{esxidentitymaxnamelength}}
+Config.MinHeight        = {{esxidentityminheight}}
+Config.MaxHeight        = {{esxidentitymaxheight}}
+Config.LowestYear       = {{esxidentitylowestyear}}
+Config.HighestYear      = {{esxidentityhighestyear}}
 
-Config.FullCharDelete   = {{esxfullchardelete}}false
+Config.FullCharDelete   = {{esxfullchardelete}}
 Config.EnableDebugging  = false
