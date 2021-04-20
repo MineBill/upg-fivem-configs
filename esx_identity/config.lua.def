@@ -25,5 +25,5 @@ Config.MaxHeight        = {{esxidentitymaxheight}}
 Config.LowestYear       = {{esxidentitylowestyear}}
 Config.HighestYear      = {{esxidentityhighestyear}}
 
-Config.FullCharDelete   = {{esxfullchardelete}}
+Config.FullCharDelete   = {{esxidentityfullchardelete}}
 Config.EnableDebugging  = false
