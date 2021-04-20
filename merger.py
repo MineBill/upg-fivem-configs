@@ -11,7 +11,7 @@ if not os.path.isdir(args.input_dir):
     exit()
 
 for path in os.listdir(args.input_dir):
-    if path.startswith(".") or os.path.isfile(path):
+    if path.startswith(".") or os.path.isfile(args.input_dir + "/" + path):
         continue
     cfg_file = args.input_dir + "/" + path + "/config.lua.def"
     if not os.path.isfile(cfg_file):
@@ -19,7 +19,6 @@ for path in os.listdir(args.input_dir):
         continue
 
     path_file_path = args.input_dir + "/" + path + "/path.txt"
-    print(path_file_path)
     with open(path_file_path, "r") as path_file:
         pathtxt = path_file.read()
         pathtxt = pathtxt.replace(".", "")
