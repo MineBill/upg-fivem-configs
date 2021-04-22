@@ -1,10 +1,10 @@
 Config                      = {}
 Config.DrawDistance         = {{esxgaragedrawdistance}}
 Config.MarkerType           = {{esxgaragemarkertype}}
-Config.MarkerSize           = { {{esxgaragemarkersize}} }
-Config.MarkerColor          = { {{esxgaragemarkercolor}} }
-Config.ParkingMarkerSize    = { {{esxgarageparkingmarkersize}} }
-Config.ParkingMarkerColor   = { {{esxgarageparkingmarkercolor}} }
+Config.MarkerSize           = {{esxgaragemarkersize}}
+Config.MarkerColor          = {{esxgaragemarkercolor}}
+Config.ParkingMarkerSize    = {{esxgarageparkingmarkersize}}
+Config.ParkingMarkerColor   = {{esxgarageparkingmarkercolor}}
 Config.ZDiff                = {{esxgaragezdiff}}
 Config.EnableOwnedVehicles  = {{esxgarageenableownedvehicles}}
 Config.MinimumHealthPercent = {{esxgarageminimumhealthpercent}}
